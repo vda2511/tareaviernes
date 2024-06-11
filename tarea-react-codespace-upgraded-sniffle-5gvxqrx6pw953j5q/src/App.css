@@ -1,0 +1,81 @@
+.cont1 {
+  width: 40%;
+  height: 30%;
+  display: flex;
+  align:center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 100px;
+}
+
+.cont2, .image-container {
+  flex: 1;
+  margin: 10px;
+}
+
+.cont2 {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.cont3{
+  background-color: red;
+  border-radius:10px ;
+}
+.image-container img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+.abc{
+  background-color: #61dafb;
+  color: #ff0000;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: yellow;
+  border-style: dashed;
+}
+.abcd{
+  background-color: green;
+  color: violet;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: #ff0000;
+  border-style: double;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.heart {
+  color: #ff0000;
+}
+
+.small {
+  font-size: 0.75rem;
+}
